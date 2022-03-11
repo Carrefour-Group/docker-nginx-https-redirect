@@ -11,14 +11,3 @@ updates:
   - dependency-name: "*"
     update-types:
     - version-update:semver-major
-- package-ecosystem: docker
-  directory: /
-  schedule:
-    interval: daily
-  labels:
-  - dependencies
-  ignore:
-  - dependency-name: "*"
-    update-types:
-    - version-update:semver-minor
-    - version-update:semver-patch
