@@ -6,3 +6,7 @@ updates:
     interval: daily
   labels:
   - dependencies
+  ignore:
+  - dependency-name: "*"
+    update-types:
+    - version-update:semver-major
