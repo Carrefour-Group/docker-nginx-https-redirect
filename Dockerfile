@@ -1,3 +1,3 @@
-FROM nginx:mainline-alpine
+FROM nginx:1.20
 
 COPY default.conf /etc/nginx/conf.d/
